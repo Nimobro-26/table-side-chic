@@ -54,6 +54,7 @@ export default function Navbar() {
 
         {/* Mobile toggle */}
         <div className="flex md:hidden items-center gap-2">
+          <ThemeToggle />
           <Link to="/cart" className="relative">
             <Button variant="outline" size="icon">
               <ShoppingCart className="h-5 w-5" />
