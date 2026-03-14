@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import DashboardSidebar from "@/components/DashboardSidebar";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function DashboardLayout({ role, children }: { role: string; children: ReactNode }) {
   return (
