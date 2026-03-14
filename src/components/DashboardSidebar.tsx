@@ -22,10 +22,10 @@ interface NavItem {
 
 const customerNav: NavItem[] = [
   { title: "Dashboard", url: "/customer/dashboard", icon: LayoutDashboard },
-  { title: "Menu", url: "/menu", icon: BookOpen },
+  { title: "Menu", url: "/customer/menu", icon: BookOpen },
   { title: "Orders", url: "/customer/orders", icon: ShoppingBag },
-  { title: "Reservations", url: "/reserve", icon: CalendarDays },
-  { title: "Profile", url: "#", icon: User },
+  { title: "Reservations", url: "/customer/reservations", icon: CalendarDays },
+  { title: "Profile", url: "/customer/profile", icon: User },
 ];
 
 const adminNav: NavItem[] = [
