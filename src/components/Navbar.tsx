@@ -39,6 +39,7 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
+          <ThemeToggle />
           <Link to="/cart" className="relative ml-2">
             <Button variant="outline" size="icon">
               <ShoppingCart className="h-5 w-5" />
