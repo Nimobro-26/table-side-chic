@@ -13,7 +13,10 @@ import MenuPage from "./pages/MenuPage";
 import CartPage from "./pages/CartPage";
 import ReservationPage from "./pages/ReservationPage";
 import CustomerDashboard from "./pages/CustomerDashboard";
+import CustomerMenuPage from "./pages/CustomerMenuPage";
+import CustomerReservationPage from "./pages/CustomerReservationPage";
 import OrderHistoryPage from "./pages/OrderHistoryPage";
+import ProfilePage from "./pages/ProfilePage";
 import BillPage from "./pages/BillPage";
 import AdminDashboard from "./pages/AdminDashboard";
 import MenuManagement from "./pages/MenuManagement";
@@ -37,7 +40,10 @@ const App = () => (
             <Route path="/cart" element={<CartPage />} />
             <Route path="/reserve" element={<ReservationPage />} />
             <Route path="/customer/dashboard" element={<CustomerDashboard />} />
+            <Route path="/customer/menu" element={<CustomerMenuPage />} />
             <Route path="/customer/orders" element={<OrderHistoryPage />} />
+            <Route path="/customer/reservations" element={<CustomerReservationPage />} />
+            <Route path="/customer/profile" element={<ProfilePage />} />
             <Route path="/customer/bill/:id" element={<BillPage />} />
             <Route path="/admin/dashboard" element={<AdminDashboard />} />
             <Route path="/admin/menu" element={<MenuManagement />} />
