@@ -3,6 +3,7 @@ import { UtensilsCrossed, ShoppingCart, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/contexts/CartContext";
 import { useState } from "react";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -38,6 +39,7 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
+          <ThemeToggle />
           <Link to="/cart" className="relative ml-2">
             <Button variant="outline" size="icon">
               <ShoppingCart className="h-5 w-5" />
@@ -52,6 +54,7 @@ export default function Navbar() {
 
         {/* Mobile toggle */}
         <div className="flex md:hidden items-center gap-2">
+          <ThemeToggle />
           <Link to="/cart" className="relative">
             <Button variant="outline" size="icon">
               <ShoppingCart className="h-5 w-5" />
