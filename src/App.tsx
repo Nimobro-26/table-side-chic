@@ -22,6 +22,7 @@ import AdminDashboard from "./pages/AdminDashboard";
 import MenuManagement from "./pages/MenuManagement";
 import TableManagement from "./pages/TableManagement";
 import StaffDashboard from "./pages/StaffDashboard";
+import StaffMenuPage from "./pages/StaffMenuPage";
 
 const queryClient = new QueryClient();
 
