@@ -22,6 +22,7 @@ import AdminDashboard from "./pages/AdminDashboard";
 import MenuManagement from "./pages/MenuManagement";
 import TableManagement from "./pages/TableManagement";
 import StaffDashboard from "./pages/StaffDashboard";
+import StaffMenuPage from "./pages/StaffMenuPage";
 
 const queryClient = new QueryClient();
 
@@ -49,6 +50,7 @@ const App = () => (
             <Route path="/admin/menu" element={<MenuManagement />} />
             <Route path="/admin/tables" element={<TableManagement />} />
             <Route path="/staff/dashboard" element={<StaffDashboard />} />
+            <Route path="/staff/menu" element={<StaffMenuPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

@@ -38,7 +38,7 @@ const adminNav: NavItem[] = [
 
 const staffNav: NavItem[] = [
   { title: "Order Dashboard", url: "/staff/dashboard", icon: ChefHat },
-  { title: "Menu", url: "/menu", icon: BookOpen },
+  { title: "Menu", url: "/staff/menu", icon: BookOpen },
 ];
 
 const roleNavMap: Record<string, NavItem[]> = {
