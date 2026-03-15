@@ -23,6 +23,8 @@ import MenuManagement from "./pages/MenuManagement";
 import TableManagement from "./pages/TableManagement";
 import StaffDashboard from "./pages/StaffDashboard";
 import StaffMenuPage from "./pages/StaffMenuPage";
+import AdminOrdersPage from "./pages/AdminOrdersPage";
+import AdminCustomersPage from "./pages/AdminCustomersPage";
 
 const queryClient = new QueryClient();
 
