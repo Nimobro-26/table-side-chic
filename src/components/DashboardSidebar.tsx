@@ -32,8 +32,8 @@ const adminNav: NavItem[] = [
   { title: "Dashboard", url: "/admin/dashboard", icon: BarChart3 },
   { title: "Menu Management", url: "/admin/menu", icon: BookOpen },
   { title: "Table Management", url: "/admin/tables", icon: Table2 },
-  { title: "Orders", url: "/customer/orders", icon: ShoppingBag },
-  { title: "Customers", url: "#", icon: Users },
+  { title: "Orders", url: "/admin/orders", icon: ShoppingBag },
+  { title: "Customers", url: "/admin/customers", icon: Users },
 ];
 
 const staffNav: NavItem[] = [
